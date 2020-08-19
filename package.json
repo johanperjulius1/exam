@@ -1,0 +1,19 @@
+{
+  "name": "exam",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/johanperjulius1/exam.git",
+  "author": "Johan Berglund <johan.per.julius.berglund@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "cypress": "^4.12.1"
+  },
+  "dependencies": {
+    "superstatic": "^7.0.0"
+  },
+
+  "scripts": {
+    "start": "superstatic --port 3001",
+    "cy:open": "yarn start & cypress open"
+  }
+}
